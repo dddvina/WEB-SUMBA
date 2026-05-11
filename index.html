@@ -729,9 +729,18 @@
       const infoPanelContent = document.getElementById('infoPanelContent');
 
       // === LOAD DATA ===
+      function fetchGeoJSON(url) {
+        return fetch(url).then(response => {
+          if (!response.ok) {
+            throw new Error(`HTTP ${response.status} saat memuat ${url}`);
+          }
+          return response.json();
+        });
+      }
+
       Promise.all([
-        fetch('data/desa_sumba.geojson').then(r => r.json()),
-        fetch('data/titik_air.geojson').then(r => r.json())
+        fetchGeoJSON('Data/desa_sumba.geojson'),
+        fetchGeoJSON('Data/titik_air.geojson')
       ]).then(([desaData, airData]) => {
         // Stats
         const pcts = desaData.features.map(f => f.properties.pct_air).filter(v => v !== null && v !== undefined);
@@ -772,9 +781,9 @@
             const nearest = turf.nearestPoint(fromPt, airData);
             let nearestInfo = 'Tidak ada data sumber air';
             if (nearest) {
-                const distance = turf.distance(fromPt, nearest);
-                const namaSumber = nearest.properties.name || nearest.properties.jenis || 'Sumber Air';
-                nearestInfo = `${distance.toFixed(2)} km (${namaSumber})`;
+              const distance = turf.distance(fromPt, nearest);
+              const namaSumber = nearest.properties.name || nearest.properties.jenis || 'Sumber Air';
+              nearestInfo = `${distance.toFixed(2)} km (${namaSumber})`;
             }
 
             // Popup
@@ -826,15 +835,15 @@
               const desaPt = turf.point(desa.geometry.coordinates);
               const distance = turf.distance(waterPt, desaPt);
               if (distance <= 5) {
-                  servedCount++;
-                  const namaDesa = desa.properties.nama || desa.properties.kel_desa || 'Desa';
-                  servedVillagesHTML += `<div style="display:flex;justify-content:space-between;font-size:11px;color:var(--text-muted);padding:2px 0;"><span>${namaDesa}</span><span>${distance.toFixed(2)} km</span></div>`;
+                servedCount++;
+                const namaDesa = desa.properties.nama || desa.properties.kel_desa || 'Desa';
+                servedVillagesHTML += `<div style="display:flex;justify-content:space-between;font-size:11px;color:var(--text-muted);padding:2px 0;"><span>${namaDesa}</span><span>${distance.toFixed(2)} km</span></div>`;
               }
             });
 
             let servedSection = '';
             if (servedCount > 0) {
-                servedSection = `
+              servedSection = `
                   <div style="margin-top:10px;border-top:1px solid rgba(255,255,255,0.1);padding-top:8px;">
                     <div style="font-size:11px;color:var(--primary-light);font-weight:600;margin-bottom:4px;">Desa-desa yang dilayani (Radius &le; 5 km):</div>
                     <div style="max-height:80px;overflow-y:auto;padding-right:4px;">
@@ -843,7 +852,7 @@
                   </div>
                 `;
             } else {
-                servedSection = `
+              servedSection = `
                   <div style="margin-top:10px;border-top:1px solid rgba(255,255,255,0.1);padding-top:8px;">
                     <div style="font-size:11px;color:var(--text-muted);font-style:italic;">Tidak ada desa dalam radius 5 km.</div>
                   </div>
