@@ -1,0 +1,505 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 1,
+        "name": "Mata Air Weikabouna",
+        "amenity": null,
+        "designation": null,
+        "man_made": "water_well",
+        "natural": null,
+        "source": null,
+        "jenis": "Sumur Gali"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3880146,
+          -9.7688075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 2,
+        "name": "Sumur Gali",
+        "amenity": null,
+        "designation": null,
+        "man_made": "water_well",
+        "natural": null,
+        "source": null,
+        "jenis": "Sumur Gali"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3845001,
+          -9.7738975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 3,
+        "name": "Mata Air Wei Ommah",
+        "amenity": null,
+        "designation": null,
+        "man_made": "water_well",
+        "natural": null,
+        "source": null,
+        "jenis": "Sumur Gali"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3871733,
+          -9.7744673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 4,
+        "name": "Sumur Ngora Paraingu",
+        "amenity": null,
+        "designation": null,
+        "man_made": "water_well",
+        "natural": null,
+        "source": null,
+        "jenis": "Sumur Gali"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3847967,
+          -9.7738001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 5,
+        "name": "Mata Air Weenmuana",
+        "amenity": null,
+        "designation": null,
+        "man_made": null,
+        "natural": "spring",
+        "source": null,
+        "jenis": "Mata Air"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.4207662,
+          -9.4899868
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 6,
+        "name": "Mata Air Weendelu",
+        "amenity": null,
+        "designation": null,
+        "man_made": null,
+        "natural": "spring",
+        "source": null,
+        "jenis": "Mata Air"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.41393,
+          -9.4933494
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 7,
+        "name": "Mata Air Weendara",
+        "amenity": null,
+        "designation": null,
+        "man_made": null,
+        "natural": "spring",
+        "source": null,
+        "jenis": "Mata Air"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.4174248,
+          -9.4937365
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 8,
+        "name": "Mata Air Weemanga",
+        "amenity": null,
+        "designation": null,
+        "man_made": null,
+        "natural": "spring",
+        "source": null,
+        "jenis": "Mata Air"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.4183985,
+          -9.4871349
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 9,
+        "name": "Mata Air Weebou",
+        "amenity": null,
+        "designation": null,
+        "man_made": null,
+        "natural": "spring",
+        "source": null,
+        "jenis": "Mata Air"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.4229453,
+          -9.4837942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 10,
+        "name": "Mata Air Weelaka",
+        "amenity": null,
+        "designation": null,
+        "man_made": null,
+        "natural": "spring",
+        "source": null,
+        "jenis": "Mata Air"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.4222631,
+          -9.4937345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 11,
+        "name": "Mata Air Weekauwa",
+        "amenity": null,
+        "designation": null,
+        "man_made": null,
+        "natural": "spring",
+        "source": null,
+        "jenis": "Mata Air"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.4202796,
+          -9.4923539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 12,
+        "name": "Mata Air Wee Lokaroda",
+        "amenity": null,
+        "designation": null,
+        "man_made": null,
+        "natural": "spring",
+        "source": null,
+        "jenis": "Mata Air"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.4326829,
+          -9.6410733
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 13,
+        "name": "Mata Air Wee Liangu",
+        "amenity": null,
+        "designation": null,
+        "man_made": null,
+        "natural": "spring",
+        "source": null,
+        "jenis": "Mata Air"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.4347702,
+          -9.6429907
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 14,
+        "name": "Mata Air Wee Lorupena",
+        "amenity": null,
+        "designation": null,
+        "man_made": null,
+        "natural": "spring",
+        "source": null,
+        "jenis": "Mata Air"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.4333907,
+          -9.648242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 15,
+        "name": "Mata Air Wee Rokadelu",
+        "amenity": null,
+        "designation": null,
+        "man_made": null,
+        "natural": "spring",
+        "source": null,
+        "jenis": "Mata Air"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.4350484,
+          -9.6481022
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 16,
+        "name": "Mata Air Wee Langadi",
+        "amenity": null,
+        "designation": null,
+        "man_made": null,
+        "natural": "spring",
+        "source": null,
+        "jenis": "Mata Air"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.432064,
+          -9.6439125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 17,
+        "name": "Mata Air Wee Lomiana",
+        "amenity": null,
+        "designation": null,
+        "man_made": null,
+        "natural": "spring",
+        "source": null,
+        "jenis": "Mata Air"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.4472221,
+          -9.6664995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 18,
+        "name": "Mata Air Kabukarudi",
+        "amenity": null,
+        "designation": null,
+        "man_made": null,
+        "natural": "spring",
+        "source": "gps",
+        "jenis": "Mata Air"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.3557501,
+          -9.7204998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 19,
+        "name": "Tugu Kran air",
+        "amenity": null,
+        "designation": null,
+        "man_made": null,
+        "natural": "spring",
+        "source": null,
+        "jenis": "Mata Air"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.404118,
+          -9.5944143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 20,
+        "name": "Sumber Air 20",
+        "amenity": "drinking_water",
+        "designation": "Bak Air",
+        "man_made": null,
+        "natural": null,
+        "source": null,
+        "jenis": "Kran Air"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.4571141,
+          -9.5453305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 21,
+        "name": "Pahangu Ladi",
+        "amenity": null,
+        "designation": null,
+        "man_made": null,
+        "natural": "spring",
+        "source": null,
+        "jenis": "Mata Air"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.437425,
+          -9.7439281
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 22,
+        "name": "Mata Air Manarik",
+        "amenity": null,
+        "designation": null,
+        "man_made": null,
+        "natural": "spring",
+        "source": null,
+        "jenis": "Mata Air"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.4297203,
+          -9.6676964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 23,
+        "name": "Mata Air Waimadaka",
+        "amenity": "water_point",
+        "designation": null,
+        "man_made": null,
+        "natural": null,
+        "source": null,
+        "jenis": "Titik Air"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.408673,
+          -9.7081582
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 24,
+        "name": "Sumur Gali",
+        "amenity": "water_point",
+        "designation": null,
+        "man_made": null,
+        "natural": null,
+        "source": null,
+        "jenis": "Titik Air"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.411205,
+          -9.7080736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 25,
+        "name": "Sumur Gali",
+        "amenity": null,
+        "designation": null,
+        "man_made": "water_well",
+        "natural": null,
+        "source": null,
+        "jenis": "Sumur Gali"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.4065648,
+          -9.7225243
+        ]
+      }
+    }
+  ]
+}
